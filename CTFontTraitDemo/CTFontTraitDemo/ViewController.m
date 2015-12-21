@@ -51,7 +51,6 @@
                     if (value & kCTFontTraitExpanded || value & kCTFontTraitCondensed)
                         NSLog(@"压缩或扩展");
                     /*其他就不一一列出*/
-                    CFRelease(symbolic);
                 }
                 
                 CFNumberRef weight = CFDictionaryGetValue(attrDic, kCTFontWeightTrait);
@@ -60,7 +59,6 @@
                     CGFloat fWeight;
                     CFNumberGetValue(weight, kCFNumberCGFloatType, &fWeight);
                     NSLog(@"kCTFontWeightTrait = %f", fWeight);
-                    CFRelease(weight);
                 }
                 
                 CFNumberRef width = CFDictionaryGetValue(attrDic, kCTFontWidthTrait);
@@ -69,7 +67,6 @@
                     CGFloat fWidth;
                     CFNumberGetValue(width, kCFNumberCGFloatType, &fWidth);
                     NSLog(@"kCTFontWidthTrait = %f", fWidth);
-                    CFRelease(width);
                 }
                 
                 CFNumberRef slant = CFDictionaryGetValue(attrDic, kCTFontSlantTrait);
@@ -78,7 +75,6 @@
                     CGFloat fSlant;
                     CFNumberGetValue(slant, kCFNumberCGFloatType, &fSlant);
                     NSLog(@"kCTFontSlantTrait = %f", fSlant * 30);
-                    CFRelease(slant);
                 }
             }
             CFRelease(attrDic);
