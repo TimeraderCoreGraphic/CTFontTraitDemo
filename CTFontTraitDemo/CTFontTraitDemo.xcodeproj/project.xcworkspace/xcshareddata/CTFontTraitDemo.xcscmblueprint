@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "555A608F642A2FEAB93536B3F31B4E40DBD01192",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "555A608F642A2FEAB93536B3F31B4E40DBD01192" : 0,
+    "4C9463F7A836D11A2786DBDACD643873C68A1E4C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "710A0868-1DB3-49F1-AB08-E40BD4D3D5FF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "555A608F642A2FEAB93536B3F31B4E40DBD01192" : "CTFontTraitDemo\/",
+    "4C9463F7A836D11A2786DBDACD643873C68A1E4C" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CTFontTraitDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CTFontTraitDemo\/CTFontTraitDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lijia6745\/DrawItalicizeFont.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C9463F7A836D11A2786DBDACD643873C68A1E4C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TimeraderCoreGraphic\/CTFontTraitDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "555A608F642A2FEAB93536B3F31B4E40DBD01192"
+    }
+  ]
+}
